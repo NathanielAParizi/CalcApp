@@ -31,6 +31,14 @@ Used to capture events in android. Triggered when the user interacts with an exi
 
 4. How does Java garbage collection work?
 
-It is a memory management system 
+JGC is an autonomous memory management system provided by the JVM to free unused heap space in memory. Usually objects are made on the heap regardless of scope. It's purpose is to relief the developer from manually managing memory management like
+in developing in C++ programming allowing for more development time. It is done by a daemon thread called the Garbage Collector.
 
 5. Explain the software development lifecycle.
+
+Planning .  -   Coordinating with team on prospective goals for project, resources, etc.
+Analysis .  - Sourcing for system requirements such as technologies and recourses which will be used. 
+Design .  -  Creating system requirements and following mockups, schema and documentation.
+Implementation . -  Developing project based off material regarding system design.
+Testing . -         Continuous testing of system.
+Maintainance -      Monitoring the application while in production.
